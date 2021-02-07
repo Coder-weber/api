@@ -1,0 +1,44 @@
+#foodContain{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 3px;
+}
+.foodDiv{
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.foodDiv img{
+    width: 250px;
+    height: 190px;
+    border-radius: 20px 20px 0px 0px;
+}
+.foodDiv h2{
+    width: 250px;
+    margin-left: 5px;
+    color: black;
+    height: 40px;
+    background-color:rgba(100, 94, 94, 0.795);
+    font-size: 15px;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+#foodShowDetail{
+    text-align: center;
+   
+}
+#foodShowDetail img{
+    width:400px;
+    border-radius: 10px;
+   
+}
+#foodShowDetail h2{
+   padding-top: 20px;
+    font-size: 40px;
+}
+#foodShowDetail h3{
+    padding-top: 20px;
+     font-size: 20px;
+ }
